@@ -46,7 +46,5 @@ class DataManager {
         "cvbc@mali.ru",
         "klju@mali.ru"
     ]
-    
-    
 }
 
