@@ -65,11 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				1FF0AE4628FDE2640085C1AE /* App */,
+				1FF0AE5228FF21500085C1AE /* Services */,
+				1FF0AE4B28FDE5620085C1AE /* Models */,
 				1FF0AE4428FDE2390085C1AE /* ViewControllers */,
 				1FF0AE4528FDE2560085C1AE /* Storyboard */,
 				1FF0AE3928FDE2130085C1AE /* Assets.xcassets */,
-				1FF0AE4B28FDE5620085C1AE /* Models */,
-				1FF0AE5228FF21500085C1AE /* Services */,
 			);
 			path = ContactList;
 			sourceTree = "<group>";
