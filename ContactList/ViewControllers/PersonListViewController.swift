@@ -45,7 +45,7 @@ extension PersonListViewController {
         guard let tabBarVC = tabBarController else { return }
         guard let viewControllers = tabBarVC.viewControllers else { return }
         
-        viewControllers.forEach{ viewController in
+        viewControllers.forEach { viewController in
             if let navigationController = viewController as? UINavigationController {
                 let viewController = navigationController.topViewController
                 guard let personSecondVC = viewController as? PersonSectionTableViewController else { return }
