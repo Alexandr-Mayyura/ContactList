@@ -12,9 +12,12 @@ class PersonSectionTableViewController: UITableViewController {
     var persons: [Person]!
     
     // MARK: - Table view data source
-    
     override func numberOfSections(in tableView: UITableView) -> Int {
         persons.count
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        persons[section].fullName
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -29,7 +32,7 @@ class PersonSectionTableViewController: UITableViewController {
         if indexPath.row == 0 {
             content.text = person.phone
             content.image = UIImage(systemName: "phone")
-        } else if indexPath.row == 1 {
+        } else { 
             content.text = person.email
             content.image = UIImage(systemName: "mail")
         }
@@ -39,7 +42,7 @@ class PersonSectionTableViewController: UITableViewController {
         return cell
     }
     
-    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        persons[section].fullName
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }

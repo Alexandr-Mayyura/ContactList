@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F3AF9772932B2E200CCA669 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3AF9762932B2E200CCA669 /* TabBarController.swift */; };
 		1FF0AE3128FDE2100085C1AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AE3028FDE2100085C1AE /* AppDelegate.swift */; };
 		1FF0AE3328FDE2100085C1AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AE3228FDE2100085C1AE /* SceneDelegate.swift */; };
 		1FF0AE3528FDE2100085C1AE /* PersonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0AE3428FDE2100085C1AE /* PersonListViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F3AF9762932B2E200CCA669 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		1FF0AE2D28FDE2100085C1AE /* ContactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF0AE3028FDE2100085C1AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FF0AE3228FDE2100085C1AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				1FF0AE3428FDE2100085C1AE /* PersonListViewController.swift */,
 				1FF0AE4C28FEAD910085C1AE /* PersonDetailViewController.swift */,
 				1FF0AE4E28FEB1510085C1AE /* PersonSectionTableViewController.swift */,
+				1F3AF9762932B2E200CCA669 /* TabBarController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FF0AE3528FDE2100085C1AE /* PersonListViewController.swift in Sources */,
+				1F3AF9772932B2E200CCA669 /* TabBarController.swift in Sources */,
 				1FF0AE4A28FDE3010085C1AE /* DataManager.swift in Sources */,
 				1FF0AE4D28FEAD910085C1AE /* PersonDetailViewController.swift in Sources */,
 				1FF0AE4F28FEB1510085C1AE /* PersonSectionTableViewController.swift in Sources */,
