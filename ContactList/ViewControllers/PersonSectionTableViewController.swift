@@ -9,7 +9,7 @@ import UIKit
 
 class PersonSectionTableViewController: UITableViewController {
     
-    var persons: [Person]!
+    var persons: [Person] = []
     
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {

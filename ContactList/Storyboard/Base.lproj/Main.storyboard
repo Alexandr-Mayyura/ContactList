@@ -60,7 +60,7 @@
                             <outlet property="delegate" destination="Xt2-ZG-7mL" id="1fs-Bk-adV"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="IbQ-wN-a7l"/>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="IbQ-wN-a7l"/>
                     <navigationItem key="navigationItem" title="Persons List" id="dYf-x2-xJy">
                         <barButtonItem key="backBarButtonItem" title="Back" id="Yyj-cf-Kmx"/>
                     </navigationItem>
@@ -101,7 +101,7 @@
                             <outlet property="delegate" destination="VNv-Pb-NJq" id="uei-t3-zqX"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="oMc-fO-aep"/>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="oMc-fO-aep"/>
                     <navigationItem key="navigationItem" title="Persons List" id="l15-0B-Eti"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uDT-Fv-1Qh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -154,8 +154,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="lmW-wB-bfv">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZCm-fX-Old" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="2cS-BM-jaf" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="2cS-BM-jaf" customClass="TabBarController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="geo-td-213"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="t0m-W4-Bg4">
@@ -168,6 +167,7 @@
                         <segue destination="VNv-Pb-NJq" kind="relationship" relationship="viewControllers" id="Jrc-g9-4km"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZCm-fX-Old" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="589" y="321"/>
         </scene>
